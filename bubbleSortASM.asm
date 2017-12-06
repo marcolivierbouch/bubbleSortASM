@@ -39,7 +39,7 @@ bubbleSort PROC
 				bts r9, 0										; Set swapped at true
 				push [rcx + rsi] 										
 				push [rcx + rsi - 8]									
-				pop	qword ptr[rcx + rsi]								; pop to swap the numbers added in the stack
+				pop qword ptr[rcx + rsi]								; pop to swap the numbers added in the stack
 				pop qword ptr[rcx + rsi - 8]							
 
 			_continueLoop:											; jmp here if you dont need to swap
