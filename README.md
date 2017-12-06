@@ -6,4 +6,4 @@ x86 assembly bubble sort
     extern "C" void bubbleSortAsm(size_t* array, size_t length);
 
 2. Now you can call the function when you want
-   ex: bubbleSortAsm(_array, _length);
+    ex: bubbleSortAsm(_array, _length);
