@@ -5,5 +5,5 @@ x86 assembly bubble sort
 1. Add this line after all the includes
    - extern "C" void bubbleSortAsm(size_t* array, size_t length);
 
-2. Now you can call the function when you want \n
+2. Now you can call the function when you want 
    - ex: bubbleSortAsm(_array, _length);
